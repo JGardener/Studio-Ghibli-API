@@ -1,0 +1,12 @@
+.filmbox {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  overflow-y: auto;
+}
