@@ -27,7 +27,7 @@ class App extends React.Component {
     return (
       <div className="container">
         {films.map(film => {
-          return <FilmBox film={film} />;
+          return <FilmBox key={film.id} film={film} />;
         })}
       </div>
     );
